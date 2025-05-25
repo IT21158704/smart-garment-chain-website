@@ -24,7 +24,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onScrollToSection }) => {
       <div className="relative z-10 text-center max-w-6xl mx-auto px-4">
         <div className="mb-8">
           <Brain className="w-20 h-20 mx-auto mb-6 text-blue-400 animate-bounce" />
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent leading-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent leading-tight">
             Smart Garment Chain: AI-Based Supply Chain Management System
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">

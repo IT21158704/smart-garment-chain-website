@@ -20,7 +20,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection, isScrolled, onSe
                             Smart Garment Chain
                         </span>
                     </div>
-                    <div className="hidden md:flex space-x-8">
+                    <div className="hidden lg:flex space-x-8">
                         {navItems.map((item) => (
                             <button
                                 key={item}
