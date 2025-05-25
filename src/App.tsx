@@ -9,6 +9,8 @@ import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import MethodologySection from './components/MethodologySection';
 import { navItems } from './data/data';
+import TimelineSection from './components/TimelineSection';
+import DownloadsSection from './components/DownloadsSection';
 
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState<string>('home');
@@ -76,6 +78,12 @@ const App: React.FC = () => {
       </section>
       <section id="components">
         <ComponentsSection />
+      </section>
+      <section id="timeline">
+        <TimelineSection />
+      </section>
+      <section id="downloads">
+        <DownloadsSection />
       </section>
       <section id="team">
         <TeamSection />

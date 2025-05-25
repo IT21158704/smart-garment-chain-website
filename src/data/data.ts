@@ -30,6 +30,21 @@ export interface TeamMember {
     color: string;
     technologies: string[];
   }
+
+  interface TimelineItem {
+    title: string;
+    date: string;
+    description: string;
+    icon: string;
+    color: string;
+  }
+  
+  interface DownloadItem {
+    title: string;
+    type: string;
+    description?: string;
+  }
+  
   
   export const teamMembers: TeamMember[] = [
     {
@@ -137,8 +152,102 @@ export interface TeamMember {
     }
   ];
   
+  export const timelineItems: TimelineItem[] = [
+    {
+      title: "Project Charter & Team Formation",
+      date: "July 2024",
+      description: "Project registration, team formation, and initial planning for the AI-based supply chain management system development.",
+      icon: "Users",
+      color: "from-blue-500 to-cyan-500"
+    },
+    {
+      title: "Project Proposal & Literature Review",
+      date: "August 2024", 
+      description: "Comprehensive project proposal development, literature survey completion, and technology stack finalization for all four modules.",
+      icon: "FileText",
+      color: "from-green-500 to-emerald-500"
+    },
+    {
+      title: "Data Collection & Model Development",
+      date: "September 2024",
+      description: "Supply chain data compilation, machine learning model training for production scheduling, logistics, and supplier evaluation systems.",
+      icon: "FlaskConical",
+      color: "from-purple-500 to-violet-500"
+    },
+    {
+      title: "System Integration & Backend Development",
+      date: "October 2024",
+      description: "Cloud infrastructure setup, microservices architecture implementation, and API development for seamless integration.",
+      icon: "Cog",
+      color: "from-orange-500 to-red-500"
+    },
+    {
+      title: "Progress Presentation I",
+      date: "November 2024",
+      description: "Responsive web interface development, mobile optimization, and user experience testing across all modules.",
+      icon: "TrendingUp",
+      color: "from-pink-500 to-rose-500"
+    },
+    {
+      title: "Progress Presentation II", 
+      date: "March 2025",
+      description: "Comprehensive system testing, performance optimization, user feedback collection, and bug fixes.",
+      icon: "Settings",
+      color: "from-indigo-500 to-blue-500"
+    },
+    {
+      title: "Final Viva and Presentation",
+      date: "May 2025",
+      description: "Cloud deployment, final documentation completion, research paper submission, and project presentation preparation.",
+      icon: "Award",
+      color: "from-emerald-500 to-teal-500"
+    }
+  ];
   
-  export const navItems = ['home', 'about', 'methodology', 'components', 'team', 'contact'];
+  export const downloadItems: DownloadItem[] = [
+    {
+      title: "Project Charter",
+      type: "Group",
+      description: "Initial project charter and team formation documentation"
+    },
+    {
+      title: "Project Proposal",
+      type: "Individual", 
+      description: "Comprehensive project proposal with technical specifications"
+    },
+    {
+      title: "Proposal Presentation",
+      type: "Group",
+      description: "Project proposal presentation slides and materials"
+    },
+    {
+      title: "Progress Presentation I",
+      type: "Group",
+      description: "First progress presentation documenting initial development"
+    },
+    {
+      title: "Status Document I",
+      type: "Group",
+      description: "First status report covering project milestones"
+    },
+    {
+      title: "Status Document II",
+      type: "Individual",
+      description: "Individual status report on module development"
+    },
+    {
+      title: "Progress Presentation II",
+      type: "Group", 
+      description: "Second progress presentation showing system integration"
+    },
+    {
+      title: "Final Group Report",
+      type: "Group",
+      description: "Complete final report documenting the entire project"
+    }
+  ];
+  
+  export const navItems = ['home', 'about', 'methodology', 'components', 'timeline', 'downloads', 'team', 'contact'];
 
   export const iconMap = {
     BarChart3, Zap, Target, Award, Cog, Truck, Package, UserCheck, 
