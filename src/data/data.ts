@@ -216,31 +216,31 @@ export interface TeamMember {
       title: "Project Proposal",
       type: "Individual", 
       description: "Comprehensive project proposal with technical specifications",
-      fileUrl: "/src/assets/documents/Project_Proposal_Individual.zip"
+      fileUrl: "/public/documents/Project_Proposal_Individual.zip"
     },
     {
       title: "Proposal Presentation",
       type: "Group",
       description: "Preparation of presentation slides and supporting materials for the project proposal.",
-      fileUrl:"/src/assets/documents/PP.pptx"
+      fileUrl:"/public/documents/PP.pptx"
     },
     {
       title: "Progress Presentation I",
       type: "Group",
       description: "First progress presentation documenting initial development",
-      fileUrl: "/src/assets/documents/PP1.pptx"
+      fileUrl: "/public/documents/PP1.pptx"
     },
     {
       title: "Progress Presentation II",
       type: "Group", 
       description: "Second progress presentation showing system integration",
-      fileUrl: "/src/assets/documents/PP2.pptx"
+      fileUrl: "/public/documents/PP2.pptx"
     },
     {
       title: "Final Group Report",
       type: "Individual",
       description: "Completion of the final report documenting all phases and aspects of the entire project.",
-      fileUrl: "/src/assets/documents/Final_Report.pdf"
+      fileUrl: "/public/documents/Final_Report.pdf"
     }
   ];
   

@@ -12,7 +12,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onScrollToSection }) => {
     try {
       // Create a link element
       const link = document.createElement('a');
-      link.href = '/src/assets/documents/researchpaper.pdf';
+      link.href = '/public/documents/researchpaper.pdf';
       link.download = 'Smart-Garment-Chain-Research-Paper.pdf';
       
       // Append to body, click, and remove
