@@ -2,7 +2,7 @@ import { iconMap, timelineItems } from "../data/data";
 
 const TimelineSection = () => {
   return (
-    <section id="timeline" className="py-20">
+    <section id="milestone" className="py-20">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="mb-16 text-center">
           <h2 className="mb-6 text-3xl font-bold text-transparent sm:text-4xl md:text-5xl bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text">
