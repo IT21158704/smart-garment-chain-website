@@ -2,6 +2,8 @@ import { BarChart3, Zap, Target, Award, Cog, Truck, Package, UserCheck, FlaskCon
 
 import member1 from '../assets/team/nadun.png'
 import member2 from '../assets/team/nimsara.jpg'
+import member3 from '../assets/team/sauni.bmp'
+import member4 from '../assets/team/yasitha.bmp'
 
 // src/data/data.ts
 export interface TeamMember {
@@ -52,6 +54,7 @@ export interface TeamMember {
       name: "Weerasinghe W.M.S.R.M",
       email: "sauniweerasinghe@gmail.com",
       department: "Computer Science and Software Engineering",
+      image:member3
 
     },
     {
@@ -63,7 +66,8 @@ export interface TeamMember {
     {
       name: "Widanapathirana Y.R",
       email: "yasitha.renuk@gmail.com",
-      department: "Computer Science and Software Engineering"
+      department: "Computer Science and Software Engineering",
+      image:member4
     },
     {
       name: "Mahagedara D.N",
