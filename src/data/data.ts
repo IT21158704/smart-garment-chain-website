@@ -249,7 +249,7 @@ export interface TeamMember {
     }
   ];
   
-  export const navItems = ['home', 'about', 'methodology', 'components', 'timeline', 'downloads', 'team', 'contact'];
+  export const navItems = ['home', 'domain', 'methodology', 'components', 'milestone', 'documents', 'team', 'contact'];
 
   export const iconMap = {
     BarChart3, Zap, Target, Award, Cog, Truck, Package, UserCheck, 
